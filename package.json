@@ -1,20 +1,23 @@
 {
   "name": "orion-studio",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "next": "14.2.3",
+    "next": "14.2.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "openai": "^4.0.0"
   },
   "devDependencies": {
-    "typescript": "^5.4.5",
-    "@types/react": "^18.2.21",
-    "@types/node": "^20.11.8"
+    "typescript": "^5.4.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.11.0"
   }
 }
